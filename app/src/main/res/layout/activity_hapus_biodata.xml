@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HapusBiodata">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text1"
+        android:textSize="15pt"
+        android:id="@+id/edt_text1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text2"
+        android:textSize="15pt"
+        android:id="@+id/edt_text2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text3"
+        android:textSize="15pt"
+        android:id="@+id/edt_text3"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text4"
+        android:textSize="15pt"
+        android:id="@+id/edt_text4"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text5"
+        android:textSize="15pt"
+        android:id="@+id/edt_text5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ton1"
+        android:textSize="15pt"
+        android:id="@+id/btn_1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ton2"
+        android:textSize="15pt"
+        android:id="@+id/btn_2"/>
+
+
+
+
+
+</LinearLayout>

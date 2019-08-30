@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/yy1"
+    tools:context=".LihatBiodata">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:id="@+id/txt_view1"
+        android:textStyle="italic"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:id="@+id/txt_view2"
+        android:textStyle="italic"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        android:id="@+id/txt_view3"
+        android:textStyle="italic"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis kelamin"
+        android:id="@+id/txt_view4"
+        android:textStyle="italic"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alamat"
+        android:id="@+id/txt_view5"
+        android:textStyle="italic"
+        android:textSize="25dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textSize="15pt"
+        android:layout_gravity="center"
+        android:id="@+id/btn_ton1"/>
+
+</LinearLayout>
